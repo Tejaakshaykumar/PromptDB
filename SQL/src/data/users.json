@@ -1,0 +1,8 @@
+[
+  {
+    "id": "123456789",
+    "email": "user@example.com",
+    "name": "John Doe",
+    "picture": "https://example.com/johndoe.jpg"
+  }
+]

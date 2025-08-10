@@ -1,0 +1,30 @@
+{
+  "sample_db": [
+    {
+      "name": "users",
+      "columns": [
+        { "name": "id", "type": "INT" },
+        { "name": "name", "type": "VARCHAR" },
+        { "name": "created_at", "type": "DATETIME" }
+      ]
+    },
+    {
+      "name": "orders",
+      "columns": [
+        { "name": "id", "type": "INT" },
+        { "name": "user_id", "type": "INT" },
+        { "name": "amount", "type": "DECIMAL" }
+      ]
+    }
+  ],
+  "test_db": [
+    {
+      "name": "products",
+      "columns": [
+        { "name": "id", "type": "SERIAL" },
+        { "name": "name", "type": "TEXT" },
+        { "name": "price", "type": "NUMERIC" }
+      ]
+    }
+  ]
+}

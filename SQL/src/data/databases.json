@@ -1,0 +1,22 @@
+[
+  {
+    "id": "db1",
+    "userId": "123456789",
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "password",
+    "database": "sample_db"
+  },
+  {
+    "id": "db2",
+    "userId": "123456789",
+    "type": "postgresql",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "password",
+    "database": "test_db"
+  }
+]
